@@ -1,7 +1,6 @@
 ## Installation
 ```ini
-mkdir docker-compose-autostart
-cd docker-compose-autostart/
+
 git clone https://github.com/mabe1489/compose-autostart.git 
 ```
 

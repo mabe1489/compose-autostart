@@ -1,14 +1,12 @@
 #!/bin/bash
 
 # Environment variables with flags
-PATH="Path-to-compose-file"
-PROJECT_NAME="Compose-Project-Name"
+DOCKER_PATH="${DOCKER_PATH:-/}"
+PROJECT_NAME="${PROJECT_NAME:-npm}"
 
-
-
-while getopts ":p:c:t:z:n:" opt; do
+while getopts ":p:c:" opt; do
   case $opt in
-    p) PATH="$OPTARG";;
+    p) DOCKER_PATH="$OPTARG";;
     c) PROJECT_NAME="$OPTARG";;
     \?)
       echo "Invalid option: -$OPTARG" >&2
@@ -21,5 +19,7 @@ while getopts ":p:c:t:z:n:" opt; do
   esac
 done
 
-cd "$PATH"
+shift $((OPTIND - 1))
+
+cd "$DOCKER_PATH"
 docker compose -p "$PROJECT_NAME" up -d

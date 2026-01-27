@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Environment variables with flags
-PATH="${PATH:-.}"
-PROJECT_NAME="${PROJECT_NAME:-npm}"
+PATH="Path-to-compose-file"
+PROJECT_NAME="Compose-Project-Name"
 
 
 

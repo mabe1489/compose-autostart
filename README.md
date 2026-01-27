@@ -1,6 +1,6 @@
 ## Installation
 ```ini
-git clone https://github.com/mabe1489/Hetzner-DynDNS-RRSet.git
+git clone https://github.com/mabe1489/compose-autostart.git
 cd Hetzner-DynDNS-RRSet/ 
 ```
 

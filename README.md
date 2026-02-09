@@ -20,4 +20,5 @@ crontab -e
 Use 
 ```file
 compose-autostart/update_container.sh 
-``` withe the flags above.
+```
+with the the flags above.

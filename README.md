@@ -16,3 +16,9 @@ After that installing a cronjob with:
 crontab -e
 */10 * * * *  bash YourFolder/autostart.sh -p -c 
 ```
+### Update Docker Compose projects
+Use 
+```file
+compose-autostart/update_container.sh 
+```
+with the the flags above.

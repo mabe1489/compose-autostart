@@ -15,7 +15,7 @@ services:
       DB_POSTGRES_HOST: 'db'
       DB_POSTGRES_PORT: '5432'
       DB_POSTGRES_USER: 'npm'
-      DB_POSTGRES_PASSWORD: '$NYImlTjCs*:ur*0%W$='
+      DB_POSTGRES_PASSWORD: 'ge82trwe87'
       DB_POSTGRES_NAME: 'npm'
       # Uncomment this if IPv6 is not enabled on your host
       # DISABLE_IPV6: 'true'
@@ -29,7 +29,7 @@ services:
     image: postgres:17
     environment:
       POSTGRES_USER: 'npm'
-      POSTGRES_PASSWORD: '$NYImlTjCs*:ur*0%W$='
+      POSTGRES_PASSWORD: 'ge82trwe87'
       POSTGRES_DB: 'npm'
     volumes:
       - ./postgresql:/var/lib/postgresql

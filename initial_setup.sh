@@ -11,4 +11,4 @@ docker run hello-world
 
 # New Proxymanager folder
 
-cp -r npm /opt/
+cp -r proxymanager /opt/
